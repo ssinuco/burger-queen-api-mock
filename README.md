@@ -3,7 +3,7 @@
 Usando las librerías [json-server](https://github.com/typicode/json-server) 
 y [json-server-auth](https://github.com/jeremyben/json-server-auth) 
 se crea un mock para 
-[Burger Queen API](https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api)
+[Burger Queen API](https://app.swaggerhub.com/apis/ssinuco/BurgerQueenAPI/2.0.0)
 
 ## Ejecución
 
