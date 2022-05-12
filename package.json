@@ -1,0 +1,15 @@
+{
+  "name": "burger-queen-api-mock",
+  "version": "1.0.0",
+  "description": "A mock of Burger Queen API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergio Sinuco <ssinuco@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "json-server": "^0.17.0",
+    "json-server-auth": "^2.1.0"
+  }
+}
