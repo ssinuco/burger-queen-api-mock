@@ -20,8 +20,7 @@ authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlL
 
 PATCH http://localhost:8080/orders/2 HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MDIzNDAzNSwiZXhwIjoxNjUwMjM3NjM1LCJzdWIiOiIyIn0.q6lDwW_wyK6-8-lUyiLUwnoowRLsvuFblu1yufkaa_Q
-
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MzU4NTEzNCwiZXhwIjoxNjUzNTg4NzM0LCJzdWIiOiIyIn0.OYMu4hQVKCSev9ep7UjJUi3mWDJm3a67h16aadr5BaI
 {
     "status": "delivered",
     "dateProcessed": "2022-03-05 16:00"
