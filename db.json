@@ -1,8 +1,8 @@
 {
   "orders": [
     {
-      "userId": 2,
-      "client": "María Pérez",
+      "userId": 3,
+      "client": "pepe",
       "products": [
         {
           "name": "Sandwich de jamón y queso",
@@ -19,102 +19,13 @@
           "quantity": 1
         }
       ],
-      "id": 3
+      "status": "pending",
+      "dataEntry": "2022-4-25 19:1:33",
+      "id": 1
     },
     {
-      "userId": 2,
-      "client": "Juan Ramirez",
-      "products": [
-        {
-          "name": "Sandwich de jamón y queso",
-          "price": 1000,
-          "id": 1,
-          "type": "Desayuno",
-          "quantity": 1
-        },
-        {
-          "name": "Café americano",
-          "price": 500,
-          "id": 2,
-          "type": "Desayuno",
-          "quantity": 2
-        }
-      ],
-      "id": 4
-    },
-    {
-      "userId": 2,
-      "client": "Carolina Díaz",
-      "products": [
-        {
-          "name": "Sandwich de jamón y queso",
-          "price": 1000,
-          "id": 1,
-          "type": "Desayuno",
-          "quantity": 3
-        },
-        {
-          "name": "Café americano",
-          "price": 500,
-          "id": 2,
-          "type": "Desayuno",
-          "quantity": 2
-        }
-      ],
-      "id": 5
-    },
-    {
-      "userId": 2,
-      "client": "José Rodriguez",
-      "products": [
-        {
-          "name": "Sandwich de jamón y queso",
-          "price": 1000,
-          "id": 1,
-          "type": "Desayuno",
-          "quantity": 1
-        },
-        {
-          "name": "Café americano",
-          "price": 500,
-          "id": 2,
-          "type": "Desayuno",
-          "quantity": 2
-        },
-        {
-          "name": "Agua 500ml",
-          "price": 500,
-          "id": 3,
-          "type": "Almuerzo",
-          "quantity": 1
-        }
-      ],
-      "id": 6
-    },
-    {
-      "userId": 2,
-      "client": "Pablo Morales",
-      "products": [
-        {
-          "name": "Sandwich de jamón y queso",
-          "price": 1000,
-          "id": 1,
-          "type": "Desayuno",
-          "quantity": 1
-        },
-        {
-          "name": "Agua 500ml",
-          "price": 500,
-          "id": 3,
-          "type": "Almuerzo",
-          "quantity": 1
-        }
-      ],
-      "id": 7
-    },
-    {
-      "userId": 2,
-      "client": "Pepe",
+      "userId": 3,
+      "client": "pepe",
       "products": [
         {
           "name": "Café americano",
@@ -122,16 +33,11 @@
           "id": 2,
           "type": "Desayuno",
           "quantity": 1
-        },
-        {
-          "name": "Sandwich de jamón y queso",
-          "price": 1000,
-          "id": 1,
-          "type": "Desayuno",
-          "quantity": 1
         }
       ],
-      "id": 8
+      "status": "pending",
+      "dataEntry": "2022-4-25 19:3:49",
+      "id": 2
     }
   ],
   "products": [
