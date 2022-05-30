@@ -12,19 +12,11 @@ se crea un mock para
     ```bash
     npm install
     ```
-3. Instala `json-server` de manera global
+3. Ejecuta el mock
     ```bash
-    npm install -g json-server
+    npm start
     ```
-3. Instala `json-server-auth` de manera global
-    ```bash
-    npm install -g json-server-auth
-    ```
-4. Ejecuta el mock
-    ```bash
-    json-server-auth db.json -p 8080 -r routes.json
-    ```
-5. Ahora puedes acceder a los endpoints del API descritos en la 
+4. Ahora puedes acceder a los endpoints del API descritos en la 
 [documentación](https://app.swaggerhub.com/apis/ssinuco/BurgerQueenAPI/2.0.0) 
 usando como URL base [http://localhost:8080/](http://localhost:8080/).
 
