@@ -4,6 +4,7 @@
   "description": "A mock of Burger Queen API",
   "main": "index.js",
   "scripts": {
+    "start": "json-server-auth db.json -p 8080 -r routes.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sergio Sinuco <ssinuco@gmail.com>",
