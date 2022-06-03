@@ -26,7 +26,7 @@
       "timeOrd": "00:00:00"
     },
     {
-      "userId": 3,
+      "userId": 4,
       "client": "Pedro Pérez",
       "products": [
         {
@@ -44,9 +44,11 @@
           "quantity": 1
         }
       ],
-      "status": "pending",
+      "status": "served",
       "dataEntry": "2022-5-31 19:44",
-      "id": 2
+      "id": 2,
+      "dateProcessed": "2022-6-1 15:0",
+      "timeOrd": "19:16:00"
     },
     {
       "userId": 3,
@@ -70,6 +72,38 @@
       "status": "pending",
       "dataEntry": "2022-5-31 19:44",
       "id": 3
+    },
+    {
+      "userId": 4,
+      "client": "Clara",
+      "products": [
+        {
+          "name": "Sandwich de jamón y queso",
+          "price": 1000,
+          "id": 1,
+          "type": "Desayuno",
+          "quantity": 1
+        },
+        {
+          "name": "Café americano",
+          "price": 500,
+          "id": 2,
+          "type": "Desayuno",
+          "quantity": 1
+        },
+        {
+          "name": "Agua 500ml",
+          "price": 500,
+          "id": 3,
+          "type": "Almuerzo",
+          "quantity": 1
+        }
+      ],
+      "status": "delivered",
+      "dataEntry": "2022-6-1 15:0",
+      "id": 4,
+      "dateProcessed": "2022-6-1 15:0",
+      "timeOrd": "00:00:00"
     }
   ],
   "products": [
