@@ -69,9 +69,11 @@
           "quantity": 1
         }
       ],
-      "status": "pending",
+      "status": "served",
       "dataEntry": "2022-5-31 19:44",
-      "id": 3
+      "id": 3,
+      "dateProcessed": "2022-6-7 10:0",
+      "timeOrd": "14:16:00"
     },
     {
       "userId": 4,
@@ -99,7 +101,7 @@
           "quantity": 1
         }
       ],
-      "status": "delivered",
+      "status": "served",
       "dataEntry": "2022-6-1 15:0",
       "id": 4,
       "dateProcessed": "2022-6-1 15:0",
@@ -124,7 +126,7 @@
           "quantity": 2
         }
       ],
-      "status": "delivered",
+      "status": "served",
       "dataEntry": "2022-6-6 11:1",
       "id": 5,
       "dateProcessed": "2022-6-6 15:28",
@@ -142,7 +144,7 @@
           "quantity": 1
         }
       ],
-      "status": "delivered",
+      "status": "served",
       "dataEntry": "2022-6-6 11:47",
       "id": 6,
       "dateProcessed": "2022-6-6 15:39",
@@ -160,9 +162,11 @@
           "quantity": 1
         }
       ],
-      "status": "pending",
+      "status": "delivered",
       "dataEntry": "2022-6-6 12:9",
-      "id": 7
+      "id": 7,
+      "dateProcessed": "2022-6-8 10:56",
+      "timeOrd": "22:47:00"
     },
     {
       "userId": 3,
@@ -176,9 +180,11 @@
           "quantity": 1
         }
       ],
-      "status": "pending",
+      "status": "served",
       "dataEntry": "2022-6-6 12:13",
-      "id": 8
+      "id": 8,
+      "dateProcessed": "2022-6-8 10:56",
+      "timeOrd": "22:43:00"
     },
     {
       "userId": 3,
@@ -199,9 +205,11 @@
           "quantity": 1
         }
       ],
-      "status": "pending",
+      "status": "delivered",
       "dataEntry": "2022-6-6 12:50",
-      "id": 9
+      "id": 9,
+      "dateProcessed": "2022-6-7 10:1",
+      "timeOrd": "21:11:00"
     },
     {
       "client": "prueba",
@@ -236,9 +244,11 @@
           "quantity": 2
         }
       ],
-      "status": "pending",
+      "status": "served",
       "dataEntry": "2022-6-6 15:2",
-      "id": 11
+      "id": 11,
+      "dateProcessed": "2022-6-8 10:56",
+      "timeOrd": "19:54:00"
     },
     {
       "client": "p",
@@ -276,6 +286,90 @@
       "status": "pending",
       "dataEntry": "2022-6-6 15:28",
       "id": 13
+    },
+    {
+      "client": "Jessica",
+      "products": [
+        {
+          "name": "Sandwich de jamón y queso",
+          "price": 1000,
+          "id": 1,
+          "type": "Desayuno",
+          "quantity": 2
+        },
+        {
+          "name": "Café americano",
+          "price": 500,
+          "id": 2,
+          "type": "Desayuno",
+          "quantity": 1
+        },
+        {
+          "name": "Agua 500ml",
+          "price": 500,
+          "id": 3,
+          "type": "Almuerzo",
+          "quantity": 10
+        }
+      ],
+      "status": "served",
+      "dataEntry": "2022-6-7 9:58",
+      "id": 14,
+      "dateProcessed": "2022-6-7 9:59",
+      "timeOrd": "00:01:00"
+    },
+    {
+      "client": "Stephanie",
+      "products": [
+        {
+          "name": "Agua 500ml",
+          "price": 500,
+          "id": 3,
+          "type": "Almuerzo",
+          "quantity": 3
+        },
+        {
+          "name": "Sandwich de jamón y queso",
+          "price": 1000,
+          "id": 1,
+          "type": "Desayuno",
+          "quantity": 3
+        },
+        {
+          "name": "Café americano",
+          "price": 500,
+          "id": 2,
+          "type": "Desayuno",
+          "quantity": 3
+        }
+      ],
+      "status": "delivered",
+      "dataEntry": "2022-6-7 9:59",
+      "id": 15,
+      "dateProcessed": "2022-6-7 10:0",
+      "timeOrd": "00:01:00"
+    },
+    {
+      "client": "Juanita",
+      "products": [
+        {
+          "name": "Sandwich de jamón y queso",
+          "price": 1000,
+          "id": 1,
+          "type": "Desayuno",
+          "quantity": 4
+        },
+        {
+          "name": "Café americano",
+          "price": 500,
+          "id": 2,
+          "type": "Desayuno",
+          "quantity": 2
+        }
+      ],
+      "status": "pending",
+      "dataEntry": "2022-6-8 10:55",
+      "id": 16
     }
   ],
   "products": [
@@ -308,43 +402,68 @@
     {
       "email": "anita.borg@systers.xyz",
       "password": "$2a$10$gVkmcWdnwEBxXj2PWjuv9uDx7BfjiAobbabDAOrH2o8b1i3E7KwR.",
-      "roles": {
-        "admin": true
-      },
+      "roles": "admin",
       "id": 1
     },
     {
       "email": "grace.hopper@systers.xyz",
       "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
-      "roles": {
-        "admin": true
-      },
+      "roles": "admin",
       "id": 2
     },
     {
       "email": "waiter@foodelicious.com",
       "password": "$2a$10$ibQwgzX/VOX5Mbv./tWkU.NMhqzuCp1WQ1pUEmMF8w/RhvQcMt7ia",
-      "roles": {
-        "waiter": true
-      },
+      "roles": "waiter",
       "id": 3
     },
     {
       "email": "chef@foodelicious.com",
       "password": "$2a$10$ryKRR.H3rvayoQJR27uHKuY39PEbMyDypvWl1EI0lm3Ntfj4KkMQm",
-      "roles": {
-        "chef": true
-      },
+      "roles": "chef",
       "id": 4
     },
     {
-      "email": "worker@foodelicious.com",
+      "name": "Juanita",
+      "email": "admin@foodelicious.com",
       "password": "$2a$10$ryKRR.H3rvayoQJR27uHKuY39PEbMyDypvWl1EI0lm3Ntfj4KkMQm",
-      "roles": {
-        "chef": true,
-        "waiter": true
-      },
-      "id": 5
+      "roles": "admin",
+      "id": 6
+    },
+    {
+      "email": "chef1@foodelicious.com",
+      "password": "$2a$10$LP7JWEM4WOYoUIu0oJOqoObu5jgkd7iGoXp9rD0JAF/U.PxTSk1iC",
+      "name": "Stephanie",
+      "roles": "chef",
+      "id": 7
+    },
+    {
+      "email": "mesera@foodelicious.com",
+      "password": "$2a$10$XFLWZ9c739vfWd2tghDOROwIc5EXL5bZRAr.QrYy5MlZ.mo5mdw5K",
+      "name": "Jessica",
+      "roles": "waiter",
+      "id": 8
+    },
+    {
+      "email": "waiter2@foodelicious.com",
+      "password": "$2a$10$lywse4Qsc9oRzQzMfjSVouJ815gwgXO8/j6zA2KyRhm6ksJoraPe2",
+      "name": "Pepe",
+      "roles": "waiter",
+      "id": 9
+    },
+    {
+      "email": "chef2@foodelicious.com",
+      "password": "$2a$10$jB9OFDZC.kLIWGuYpItSsuZZIcRljuyjHJcjqIVg6j7CUvQ7lC23u",
+      "name": "suarez",
+      "roles": "chef",
+      "id": 10
+    },
+    {
+      "email": "chef3@foodelicious.com",
+      "password": "$2a$10$78.ZcZ/XhKs3mXuXPTtvEuoED3.3k.tl582HdOvMHi9alcxC1q7Pe",
+      "name": "luisa",
+      "roles": "chef",
+      "id": 11
     }
   ]
 }
