@@ -461,8 +461,9 @@
   ],
   "users": [
     {
+      "name": "Ana Pérez",
       "email": "anita.borg@systers.xyz",
-      "password": "$2a$10$gVkmcWdnwEBxXj2PWjuv9uDx7BfjiAobbabDAOrH2o8b1i3E7KwR.",
+      "password": "$2a$10$itZyq8s85.gdN4ynUG567ePfM675smRktiKGgAGSQHwvmXhGNqLSq",
       "roles": "admin",
       "id": 1
     },
@@ -485,9 +486,9 @@
       "id": 4
     },
     {
-      "name": "Juanita",
+      "name": "Juanita Pérez",
       "email": "admin@foodelicious.com",
-      "password": "$2a$10$ryKRR.H3rvayoQJR27uHKuY39PEbMyDypvWl1EI0lm3Ntfj4KkMQm",
+      "password": "$2a$10$.FP.8NnoW2Ce9LUnMvEWYeukm0viR39qAD5ibzW1cbIzOgAjv6J6u",
       "roles": "admin",
       "id": 6
     },
