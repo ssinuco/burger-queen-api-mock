@@ -1,443 +1,163 @@
 {
   "orders": [
     {
-      "userId": 4,
-      "client": "Clara Suárez",
+      "client": "Manuel Pérez",
       "products": [
         {
           "name": "Sandwich de jamón y queso",
-          "price": 1000,
+          "price": "10000",
           "id": 1,
           "type": "Desayuno",
           "quantity": 1
         },
         {
           "name": "Café americano",
-          "price": 500,
+          "price": "4000",
           "id": 2,
           "type": "Desayuno",
           "quantity": 1
         }
       ],
       "status": "served",
-      "dataEntry": "2022-5-31 19:44",
+      "dataEntry": "2022-6-10 20:19",
       "id": 1,
-      "dateProcessed": "2022-5-31 19:44",
-      "timeOrd": "00:00:00"
+      "dateProcessed": "2022-6-10 21:33",
+      "timeOrd": "01:14:00"
     },
     {
-      "userId": 4,
-      "client": "Pedro Pérez",
+      "client": "Fernando Suárez",
       "products": [
         {
-          "name": "Agua 500ml",
-          "price": 500,
-          "id": 3,
+          "name": "Hamburguesa",
+          "price": "12000",
+          "id": 4,
           "type": "Almuerzo",
-          "quantity": 1
+          "quantity": 2
         },
         {
-          "name": "Café americano",
-          "price": 500,
-          "id": 2,
-          "type": "Desayuno",
-          "quantity": 1
+          "name": "Jugo Natural",
+          "price": "4000",
+          "id": 6,
+          "type": "Almuerzo",
+          "quantity": 2
         }
       ],
-      "status": "served",
-      "dataEntry": "2022-5-31 19:44",
+      "status": "delivered",
+      "dataEntry": "2022-6-10 20:20",
       "id": 2,
-      "dateProcessed": "2022-6-1 15:0",
-      "timeOrd": "19:16:00"
+      "dateProcessed": "2022-6-10 21:38",
+      "timeOrd": "01:18:00"
     },
     {
-      "userId": 3,
-      "client": "Samuel Agustín",
+      "client": "Laura Rodriguez",
       "products": [
         {
-          "name": "Agua 500ml",
-          "price": 500,
-          "id": 3,
+          "name": "Pizza",
+          "price": "12000",
+          "id": 7,
           "type": "Almuerzo",
           "quantity": 1
         },
         {
-          "name": "Café americano",
-          "price": 500,
-          "id": 2,
-          "type": "Desayuno",
+          "name": "Agua 500ml",
+          "price": "2000",
+          "id": 3,
+          "type": "Almuerzo",
           "quantity": 1
         }
       ],
-      "status": "served",
-      "dataEntry": "2022-5-31 19:44",
+      "status": "delivered",
+      "dataEntry": "2022-6-10 20:20",
       "id": 3,
-      "dateProcessed": "2022-6-7 10:0",
-      "timeOrd": "14:16:00"
+      "dateProcessed": "2022-6-10 21:41",
+      "timeOrd": "01:21:00"
     },
     {
-      "userId": 4,
-      "client": "Clara",
+      "client": "María López",
       "products": [
         {
-          "name": "Sandwich de jamón y queso",
-          "price": 1000,
-          "id": 1,
-          "type": "Desayuno",
-          "quantity": 1
-        },
-        {
-          "name": "Café americano",
-          "price": 500,
-          "id": 2,
-          "type": "Desayuno",
-          "quantity": 1
-        },
-        {
           "name": "Agua 500ml",
-          "price": 500,
+          "price": "2000",
           "id": 3,
+          "type": "Almuerzo",
+          "quantity": 1
+        },
+        {
+          "name": "Jugo Natural",
+          "price": "4000",
+          "id": 6,
+          "type": "Almuerzo",
+          "quantity": 2
+        },
+        {
+          "name": "Hamburguesa",
+          "price": "12000",
+          "id": 4,
+          "type": "Almuerzo",
+          "quantity": 1
+        },
+        {
+          "name": "Pizza",
+          "price": "12000",
+          "id": 7,
           "type": "Almuerzo",
           "quantity": 1
         }
       ],
-      "status": "served",
-      "dataEntry": "2022-6-1 15:0",
-      "id": 4,
-      "dateProcessed": "2022-6-1 15:0",
-      "timeOrd": "00:00:00"
+      "status": "pending",
+      "dataEntry": "2022-6-10 21:36",
+      "id": 4
     },
     {
-      "client": "ORDEN2",
+      "client": "Sandra Morales",
       "products": [
         {
           "name": "Sandwich de jamón y queso",
-          "price": 1000,
-          "id": 1,
-          "type": "Desayuno",
-          "quantity": 2
-        }
-      ],
-      "status": "served",
-      "dataEntry": "2022-6-6 11:1",
-      "id": 5,
-      "dateProcessed": "2022-6-7 14:48",
-      "timeOrd": "02:22:00"
-    },
-    {
-      "client": "ORDEN3",
-      "products": [
-        {
-          "name": "Sandwich de jamón y queso",
-          "price": 1000,
+          "price": "10000",
           "id": 1,
           "type": "Desayuno",
           "quantity": 1
         },
         {
           "name": "Café americano",
-          "price": 500,
-          "id": 2,
-          "type": "Desayuno",
-          "quantity": 1
-        }
-      ],
-      "status": "served",
-      "dataEntry": "2022-6-6 11:47",
-      "id": 6,
-      "dateProcessed": "2022-6-6 15:39",
-      "timeOrd": "03:52:00"
-    },
-    {
-      "client": "4",
-      "products": [
-        {
-          "name": "Sandwich de jamón y queso",
-          "price": 1000,
-          "id": 1,
-          "type": "Desayuno",
-          "quantity": 1
-        },
-        {
-          "name": "Café americano",
-          "price": 500,
-          "id": 2,
-          "type": "Desayuno",
-          "quantity": 1
-        }
-      ],
-      "status": "delivered",
-      "dataEntry": "2022-6-6 12:9",
-      "id": 7,
-      "dateProcessed": "2022-6-8 10:56",
-      "timeOrd": "22:47:00"
-    },
-    {
-      "client": "5",
-      "products": [
-        {
-          "name": "Sandwich de jamón y queso",
-          "price": 1000,
-          "id": 1,
-          "type": "Desayuno",
-          "quantity": 1
-        }
-      ],
-      "status": "served",
-      "dataEntry": "2022-6-6 12:13",
-      "id": 8,
-      "dateProcessed": "2022-6-8 10:56",
-      "timeOrd": "22:43:00"
-    },
-    {
-      "client": "ESTA ES!",
-      "products": [
-        {
-          "name": "Sandwich de jamón y queso",
-          "price": 1000,
-          "id": 1,
-          "type": "Desayuno",
-          "quantity": 1
-        },
-        {
-          "name": "Café americano",
-          "price": 500,
-          "id": 2,
-          "type": "Desayuno",
-          "quantity": 1
-        }
-      ],
-      "status": "delivered",
-      "dataEntry": "2022-6-6 12:50",
-      "id": 9,
-      "dateProcessed": "2022-6-7 10:1",
-      "timeOrd": "21:11:00"
-    },
-    {
-      "client": "ORDEN",
-      "products": [
-        {
-          "name": "Sandwich de jamón y queso",
-          "price": 1000,
-          "id": 1,
-          "type": "Desayuno",
-          "quantity": 1
-        },
-        {
-          "name": "Café americano",
-          "price": 500,
+          "price": "4000",
           "id": 2,
           "type": "Desayuno",
           "quantity": 1
         }
       ],
       "status": "pending",
-      "dataEntry": "2022-6-7 14:48",
-      "id": 10
+      "dataEntry": "2022-6-10 21:36",
+      "id": 5
     },
     {
-      "client": "PEPE",
+      "client": "Emilio Cárdenas",
       "products": [
-        {
-          "name": "Sandwich de jamón y queso",
-          "price": 1000,
-          "id": 1,
-          "type": "Desayuno",
-          "quantity": 1
-        },
         {
           "name": "Café americano",
-          "price": 500,
-          "id": 2,
-          "type": "Desayuno",
-          "quantity": 1
-        }
-      ],
-      "status": "served",
-      "dataEntry": "2022-6-6 15:2",
-      "id": 11,
-      "dateProcessed": "2022-6-8 10:56",
-      "timeOrd": "19:54:00"
-    },
-    {
-      "client": "esta si",
-      "products": [
-        {
-          "name": "Sandwich de jamón y queso",
-          "price": 1000,
-          "id": 1,
-          "type": "Desayuno",
-          "quantity": 1
-        },
-        {
-          "name": "Café americano",
-          "price": 500,
-          "id": 2,
-          "type": "Desayuno",
-          "quantity": 1
-        }
-      ],
-      "status": "pending",
-      "dataEntry": "2022-6-7 14:50",
-      "id": 12
-    },
-    {
-      "client": "sandw",
-      "products": [
-        {
-          "name": "Sandwich de jamón y queso",
-          "price": 1000,
-          "id": 1,
-          "type": "Desayuno",
-          "quantity": 1
-        }
-      ],
-      "status": "pending",
-      "dataEntry": "2022-6-7 14:54",
-      "id": 13
-    },
-    {
-      "client": "ALGO",
-      "products": [
-        {
-          "name": "Sandwich de jamón y queso",
-          "price": 1000,
-          "id": 1,
-          "type": "Desayuno",
-          "quantity": 1
-        }
-      ],
-      "status": "pending",
-      "dataEntry": "2022-6-7 15:10",
-      "id": 14
-    },
-    {
-      "client": "AQUI",
-      "products": [
-        {
-          "name": "Sandwich de jamón y queso",
-          "price": 1000,
-          "id": 1,
-          "type": "Desayuno",
-          "quantity": 1
-        }
-      ],
-      "status": "pending",
-      "dataEntry": "2022-6-7 15:12",
-      "id": 15
-    },
-    {
-      "client": "AL FINNN",
-      "products": [
-        {
-          "name": "Sandwich de jamón y queso",
-          "price": 1000,
-          "id": 1,
-          "type": "Desayuno",
-          "quantity": 1
-        },
-        {
-          "name": "Café americano",
-          "price": 500,
-          "id": 2,
-          "type": "Desayuno",
-          "quantity": 1
-        }
-      ],
-      "status": "pending",
-      "dataEntry": "2022-6-6 15:28",
-      "id": 13
-    },
-    {
-      "client": "Jessica",
-      "products": [
-        {
-          "name": "Sandwich de jamón y queso",
-          "price": 1000,
-          "id": 1,
-          "type": "Desayuno",
-          "quantity": 2
-        },
-        {
-          "name": "Café americano",
-          "price": 500,
+          "price": "4000",
           "id": 2,
           "type": "Desayuno",
           "quantity": 1
         },
         {
-          "name": "Agua 500ml",
-          "price": 500,
-          "id": 3,
+          "name": "Hamburguesa",
+          "price": "12000",
+          "id": 4,
           "type": "Almuerzo",
-          "quantity": 10
-        }
-      ],
-      "status": "served",
-      "dataEntry": "2022-6-7 9:58",
-      "id": 14,
-      "dateProcessed": "2022-6-7 9:59",
-      "timeOrd": "00:01:00"
-    },
-    {
-      "client": "Stephanie",
-      "products": [
-        {
-          "name": "Agua 500ml",
-          "price": 500,
-          "id": 3,
-          "type": "Almuerzo",
-          "quantity": 3
-        },
-        {
-          "name": "Sandwich de jamón y queso",
-          "price": 1000,
-          "id": 1,
-          "type": "Desayuno",
-          "quantity": 3
-        },
-        {
-          "name": "Café americano",
-          "price": 500,
-          "id": 2,
-          "type": "Desayuno",
-          "quantity": 3
-        }
-      ],
-      "status": "delivered",
-      "dataEntry": "2022-6-7 9:59",
-      "id": 15,
-      "dateProcessed": "2022-6-7 10:0",
-      "timeOrd": "00:01:00"
-    },
-    {
-      "client": "Juanita",
-      "products": [
-        {
-          "name": "Sandwich de jamón y queso",
-          "price": 1000,
-          "id": 1,
-          "type": "Desayuno",
-          "quantity": 4
-        },
-        {
-          "name": "Café americano",
-          "price": 500,
-          "id": 2,
-          "type": "Desayuno",
-          "quantity": 2
+          "quantity": 1
         }
       ],
       "status": "pending",
-      "dataEntry": "2022-6-8 10:55",
-      "id": 16
+      "dataEntry": "2022-6-10 21:37",
+      "id": 6
     }
   ],
   "products": [
     {
       "id": 1,
       "name": "Sandwich de jamón y queso",
-      "price": 1000,
+      "price": "10000",
       "image": "http://localhost:3000/image-data/Sandwich.png",
       "type": "Desayuno",
       "dateEntry": "2022-03-05 15:14:10"
@@ -445,7 +165,7 @@
     {
       "id": 2,
       "name": "Café americano",
-      "price": 500,
+      "price": "4000",
       "image": "http://localhost:3000/image-data/cafe.png",
       "type": "Desayuno",
       "dateEntry": "2022-03-05 15:14:10"
@@ -453,10 +173,34 @@
     {
       "id": 3,
       "name": "Agua 500ml",
-      "price": 500,
+      "price": "2000",
       "image": "http://localhost:3000/image-data/agua.png",
       "type": "Almuerzo",
       "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "name": "Hamburguesa",
+      "price": "12000",
+      "image": "https://i.pinimg.com/474x/1a/e6/bd/1ae6bdd3616eb2c6fd7e181a8615fc06.jpg",
+      "type": "Almuerzo",
+      "dataEntry": "2022-6-10 17:44",
+      "id": 4
+    },
+    {
+      "name": "Jugo Natural",
+      "price": "4000",
+      "image": "https://lirp.cdn-website.com/b4fb73a9/dms3rep/multi/opt/29256887321_51b21baab4_z-640x464-640w.jpg",
+      "type": "Almuerzo",
+      "dataEntry": "2022-6-10 17:56",
+      "id": 6
+    },
+    {
+      "name": "Pizza",
+      "price": "12000",
+      "image": "https://www.saborusa.com/wp-content/uploads/2019/12/origen-de-la-pizza-1.jpg",
+      "type": "Almuerzo",
+      "dataEntry": "2022-6-10 17:58",
+      "id": 7
     }
   ],
   "users": [
@@ -484,48 +228,6 @@
       "password": "$2a$10$ryKRR.H3rvayoQJR27uHKuY39PEbMyDypvWl1EI0lm3Ntfj4KkMQm",
       "roles": "chef",
       "id": 4
-    },
-    {
-      "name": "Juanita Pérez",
-      "email": "admin@foodelicious.com",
-      "password": "$2a$10$.FP.8NnoW2Ce9LUnMvEWYeukm0viR39qAD5ibzW1cbIzOgAjv6J6u",
-      "roles": "admin",
-      "id": 6
-    },
-    {
-      "email": "chef1@foodelicious.com",
-      "password": "$2a$10$LP7JWEM4WOYoUIu0oJOqoObu5jgkd7iGoXp9rD0JAF/U.PxTSk1iC",
-      "name": "Stephanie",
-      "roles": "chef",
-      "id": 7
-    },
-    {
-      "email": "mesera@foodelicious.com",
-      "password": "$2a$10$XFLWZ9c739vfWd2tghDOROwIc5EXL5bZRAr.QrYy5MlZ.mo5mdw5K",
-      "name": "Jessica",
-      "roles": "waiter",
-      "id": 8
-    },
-    {
-      "email": "waiter2@foodelicious.com",
-      "password": "$2a$10$lywse4Qsc9oRzQzMfjSVouJ815gwgXO8/j6zA2KyRhm6ksJoraPe2",
-      "name": "Pepe",
-      "roles": "waiter",
-      "id": 9
-    },
-    {
-      "email": "chef2@foodelicious.com",
-      "password": "$2a$10$jB9OFDZC.kLIWGuYpItSsuZZIcRljuyjHJcjqIVg6j7CUvQ7lC23u",
-      "name": "suarez",
-      "roles": "chef",
-      "id": 10
-    },
-    {
-      "email": "chef3@foodelicious.com",
-      "password": "$2a$10$78.ZcZ/XhKs3mXuXPTtvEuoED3.3k.tl582HdOvMHi9alcxC1q7Pe",
-      "name": "luisa",
-      "roles": "chef",
-      "id": 11
     }
   ]
 }
