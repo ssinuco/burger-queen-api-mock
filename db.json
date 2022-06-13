@@ -157,7 +157,7 @@
     {
       "id": 1,
       "name": "Sandwich de jamón y queso",
-      "price": "10000",
+      "price": "15000",
       "image": "http://localhost:3000/image-data/Sandwich.png",
       "type": "Desayuno",
       "dateEntry": "2022-03-05 15:14:10"
@@ -213,21 +213,38 @@
     },
     {
       "email": "grace.hopper@systers.xyz",
-      "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
+      "password": "$2a$10$EVB57g3zNYSiUDjj/DOX0OPgEeNkaTaCZqVUg.xmKzq03GTfppQvO",
       "roles": "admin",
-      "id": 2
+      "id": 2,
+      "name": "Grace Hopper"
     },
     {
       "email": "waiter@foodelicious.com",
-      "password": "$2a$10$ibQwgzX/VOX5Mbv./tWkU.NMhqzuCp1WQ1pUEmMF8w/RhvQcMt7ia",
+      "password": "$2a$10$0VqrXmDcS6cNcSIKdi.l8e/JwdU7IFPSaFk.JZ.HOYCJVVLI/kYHK",
       "roles": "waiter",
-      "id": 3
+      "id": 3,
+      "name": "Waiter"
     },
     {
       "email": "chef@foodelicious.com",
-      "password": "$2a$10$ryKRR.H3rvayoQJR27uHKuY39PEbMyDypvWl1EI0lm3Ntfj4KkMQm",
+      "password": "$2a$10$DRyyuSQAmgW.s1AEEkGmNuytZH0IDiPG/8IybN4J5ouAODiTZZGRe",
       "roles": "chef",
-      "id": 4
+      "id": 4,
+      "name": "Arnulfo Gonzalez"
+    },
+    {
+      "email": "stephanie@foodelicious.com",
+      "password": "$2a$10$kypfP4xBd3wK8bRuevpB4eIcaAA7jK5QuP3SaoujAUE1MVCWnBLC.",
+      "name": "Stephanie Morales",
+      "roles": "admin",
+      "id": 5
+    },
+    {
+      "email": "jessica@foodelicious.com",
+      "password": "$2a$10$NSl9e0NMx3RlhUxW2NF9P./BeP5jmyXcxeZVdAJZWcv8jX5KsfTui",
+      "name": "Jessica Sierra",
+      "roles": "chef",
+      "id": 6
     }
   ]
 }
