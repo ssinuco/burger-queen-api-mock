@@ -208,27 +208,35 @@
       "name": "Ana Pérez",
       "email": "anita.borg@systers.xyz",
       "password": "$2a$10$itZyq8s85.gdN4ynUG567ePfM675smRktiKGgAGSQHwvmXhGNqLSq",
-      "roles": "admin",
+      "roles": {
+        "admin": true
+      },
       "id": 1
     },
     {
       "email": "grace.hopper@systers.xyz",
       "password": "$2a$10$EVB57g3zNYSiUDjj/DOX0OPgEeNkaTaCZqVUg.xmKzq03GTfppQvO",
-      "roles": "admin",
+      "roles": {
+        "admin": true
+      },
       "id": 2,
       "name": "Grace Hopper"
     },
     {
       "email": "waiter@foodelicious.com",
       "password": "$2a$10$0VqrXmDcS6cNcSIKdi.l8e/JwdU7IFPSaFk.JZ.HOYCJVVLI/kYHK",
-      "roles": "waiter",
+      "roles": {
+        "waiter": true
+      },
       "id": 3,
       "name": "Waiter"
     },
     {
       "email": "chef@foodelicious.com",
       "password": "$2a$10$DRyyuSQAmgW.s1AEEkGmNuytZH0IDiPG/8IybN4J5ouAODiTZZGRe",
-      "roles": "chef",
+      "roles": {
+        "chef": true
+      },
       "id": 4,
       "name": "Arnulfo Gonzalez"
     },
@@ -236,14 +244,18 @@
       "email": "stephanie@foodelicious.com",
       "password": "$2a$10$kypfP4xBd3wK8bRuevpB4eIcaAA7jK5QuP3SaoujAUE1MVCWnBLC.",
       "name": "Stephanie Morales",
-      "roles": "admin",
+      "roles": {
+        "admin": true
+      },
       "id": 5
     },
     {
       "email": "jessica@foodelicious.com",
       "password": "$2a$10$NSl9e0NMx3RlhUxW2NF9P./BeP5jmyXcxeZVdAJZWcv8jX5KsfTui",
       "name": "Jessica Sierra",
-      "roles": "chef",
+      "roles": { 
+        "chef": true
+      },
       "id": 6
     }
   ]
