@@ -26,3 +26,37 @@ authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlL
     "status": "delivered",
     "dateProcessed": "2022-03-05 16:00"
 }
+
+POST http://localhost:8080/orders HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY2NjEyNTQ5NSwiZXhwIjoxNjY2MTI5MDk1LCJzdWIiOiIyIn0.laNI7HKXIcDzCp1AYl4aMWh5jSlcMFKFQLHrCC2XTPw
+
+{
+    "client": "Harry Potter",
+    "products": [
+        {
+            "qty": 1,
+            "product": {
+            "id": 1,
+            "name": "Sandwich de jamón y queso",
+            "price": 1000,
+            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
+            "type": "Desayuno",
+            "dateEntry": "2022-03-05 15:14:10"
+            }
+        },
+        {
+            "qty": 1,
+            "product": {
+            "id": 2,
+            "name": "Café americano",
+            "price": 500,
+            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
+            "type": "Desayuno",
+            "dateEntry": "2022-03-05 15:14:10"
+            }
+        }
+    ],
+    "status": "pending",
+    "dataEntry": "2022-03-05 15:00"
+}
