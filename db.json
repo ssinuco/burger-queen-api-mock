@@ -94,17 +94,13 @@
     {
       "email": "anita.borg@systers.xyz",
       "password": "$2a$10$gVkmcWdnwEBxXj2PWjuv9uDx7BfjiAobbabDAOrH2o8b1i3E7KwR.",
-      "roles": {
-        "admin": true
-      },
+      "role": "admin",
       "id": 1
     },
     {
       "email": "grace.hopper@systers.xyz",
       "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
-      "roles": {
-        "admin": true
-      },
+      "role": "admin",
       "id": 2
     }
   ]
