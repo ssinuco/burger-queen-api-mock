@@ -2,28 +2,28 @@
   "orders": [
     {
       "id": 1,
-      "userId": 1,
+      "userId": 2,
       "client": "Jude Milhon",
       "products": [
         {
           "qty": 1,
           "product": {
-            "id": 1,
-            "name": "Sandwich de jamón y queso",
+            "id": 9,
+            "name": "Ham and cheese sandwich",
             "price": 1000,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
-            "type": "Desayuno",
+            "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
+            "type": "Breakfast",
             "dateEntry": "2022-03-05 15:14:10"
           }
         },
         {
           "qty": 1,
           "product": {
-            "id": 2,
-            "name": "Café americano",
+            "id": 1,
+            "name": "American coffee",
             "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
-            "type": "Desayuno",
+            "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+            "type": "Beverages",
             "dateEntry": "2022-03-05 15:14:10"
           }
         }
@@ -39,22 +39,22 @@
         {
           "qty": 2,
           "product": {
-            "id": 2,
-            "name": "Café americano",
+            "id": 1,
+            "name": "American coffee",
             "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
-            "type": "Desayuno",
+            "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+            "type": "Beverages",
             "dateEntry": "2022-03-05 15:14:10"
           }
         },
         {
           "qty": 1,
           "product": {
-            "id": 3,
-            "name": "Agua 500ml",
+            "id": 2,
+            "name": "Water 500ml",
             "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
-            "type": "Almuerzo",
+            "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
+            "type": "Beverages",
             "dateEntry": "2022-03-05 15:14:10"
           }
         }
@@ -67,41 +67,183 @@
   "products": [
     {
       "id": 1,
-      "name": "Sandwich de jamón y queso",
-      "price": 1000,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
-      "type": "Desayuno",
+      "name": "American coffee",
+      "price": 500,
+      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+      "type": "Beverages",
       "dateEntry": "2022-03-05 15:14:10"
     },
     {
       "id": 2,
-      "name": "Café americano",
+      "name": "Water 500ml",
       "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
-      "type": "Desayuno",
+      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
+      "type": "Beverages",
       "dateEntry": "2022-03-05 15:14:10"
     },
     {
       "id": 3,
-      "name": "Agua 500ml",
+      "name": "Chocolate milkshake",
       "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
-      "type": "Almuerzo",
+      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/blob/main/resources/images/milk-shake-chocolate.png",
+      "type": "Beverages",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 4,
+      "name": "Vanilla milkshake",
+      "price": 500,
+      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/blob/main/resources/images/milk-shake-vanilla.png",
+      "type": "Beverages",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 5,
+      "name": "Milk",
+      "price": 500,
+      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/blob/main/resources/images/milk.png",
+      "type": "Beverages",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 6,
+      "name": "Lemon soda",
+      "price": 500,
+      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/soda-lemon.png",
+      "type": "Beverages",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 7,
+      "name": "Blue soda",
+      "price": 500,
+      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/soda-blue.png",
+      "type": "Beverages",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 8,
+      "name": "Oat meal",
+      "price": 500,
+      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/oatmeal.png",
+      "type": "Beverages",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 9,
+      "name": "Ham and cheese sandwich",
+      "price": 1000,
+      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
+      "type": "Breakfast",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 10,
+      "name": "Fried egg sandwich",
+      "price": 1000,
+      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/fried-egg.png",
+      "type": "Breakfast",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 11,
+      "name": "Classic burger",
+      "price": 1000,
+      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
+      "type": "Lunch",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 12,
+      "name": "Bacon burger",
+      "price": 1000,
+      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/bacon-burger.png",
+      "type": "Lunch",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 13,
+      "name": "Cheese burger",
+      "price": 1000,
+      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/cheese-burger.png",
+      "type": "Lunch",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 14,
+      "name": "Double burger",
+      "price": 1000,
+      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/double-burger.png",
+      "type": "Lunch",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 15,
+      "name": "Burger + soda + fries",
+      "price": 1000,
+      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/combo1.png",
+      "type": "Combos",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 16,
+      "name": "Burger + soda",
+      "price": 1000,
+      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/combo2.png",
+      "type": "Combos",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 17,
+      "name": "Burger + soda + milkshake",
+      "price": 1000,
+      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/combo3.png",
+      "type": "Combos",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 18,
+      "name": "Salad",
+      "price": 1000,
+      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/salad.png",
+      "type": "Sides",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 19,
+      "name": "Fries",
+      "price": 1000,
+      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/french-fries.png",
+      "type": "Sides",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 20,
+      "name": "Spicy fries",
+      "price": 1000,
+      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/french-potatoes.png",
+      "type": "Sides",
       "dateEntry": "2022-03-05 15:14:10"
     }
   ],
   "users": [
     {
-      "email": "anita.borg@systers.xyz",
-      "password": "$2a$10$gVkmcWdnwEBxXj2PWjuv9uDx7BfjiAobbabDAOrH2o8b1i3E7KwR.",
+      "email": "admin@systers.xyz",
+      "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
       "role": "admin",
       "id": 1
     },
     {
-      "email": "grace.hopper@systers.xyz",
+      "email": "waiter@systers.xyz",
       "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
-      "role": "admin",
+      "role": "waiter",
       "id": 2
+    },
+    {
+      "email": "chef@systers.xyz",
+      "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
+      "role": "chef",
+      "id": 3
     }
   ]
 }
